@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/login/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>CodePen - Teste 2 Front End E-Completo</title>
+</head>
+
+<body>
+  <section class="login">
+    <div class="login-container">
+      <div class="login-banner">
+        <img class="login-img" src="https://image.freepik.com/free-photo/cyber-monday-shopping-sales_23-2148688502.jpg"
+          alt="login">
+      </div>
+      <div class="login-form">
+        <div class="login-form-container">
+          <img src="https://www.e-completo.com.br/templates/img/logo-ecompleto.png" alt="logo">
+          <h2>Entre na sua conta</h2>
+          <form action="#">
+            <div class="login-input-content">
+              <span class=" validacao">este campo nao é valido</span>
+              <input data-tipo="email" class="input-text login-input" required type="email" name="email" id="email"
+                placeholder="seu@email.com">
+            </div>
+            <div class="login-input-content">
+              <span class=" validacao">este campo nao é valido</span>
+              <input data-tipo="senha" minlength="6" maxlength="12" class="input-text login-input" required
+                type="password" name="password" id="password" placeholder="*******">
+            </div>
+            <input class="button login-input" name="login" id="login" type="submit" value="Entrar">
+          </form>
+          <a class="login-recuperar-senha" href="#">Esqueceu a senha?</a>
+          <p class="login-cadastrar">Não tem uma conta? <a href="#">Cadastrar</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./script.js"></script>
+</body>
+
+</html>
